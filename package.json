@@ -1,0 +1,16 @@
+{
+  "name": "WhatsMate",
+  "version": "1.0.0",
+  "description": "Whatsapp Automated",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --inspect-brk[5858] .",
+    "b": "electron-packager ./ --platform=win32 --arch=x64  --overwrite --icon ./icon.ico --asar --prune"
+  },
+  "author": "Pankaj Shinde",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-packager": "^13.0.1"
+  }
+}

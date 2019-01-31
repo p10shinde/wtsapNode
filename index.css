@@ -1,0 +1,277 @@
+*{
+  font:  "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+._3CSsZ {
+  display: inline-block;
+  vertical-align: top; }
+  
+  
+    ._2EZ_m ._1jjYO {
+    position: absolute;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    z-index: 2; }
+  html[dir] ._2EZ_m ._1jjYO {
+    margin-top: -32px; }
+  html[dir=ltr] ._2EZ_m ._1jjYO {
+  left: 50%;
+  margin-left: -32px; }
+  html[dir=rtl] ._2EZ_m ._1jjYO {
+  right: 50%;
+  margin-right: -32px; }
+  ._2EZ_m img,
+  ._2EZ_m canvas,
+  ._2EZ_m ._1jjYO {
+    transition: opacity 0.5s cubic-bezier(0.1, 0.82, 0.25, 1);
+    opacity: 1; }
+
+._2EZ_m._1i65u img,
+._2EZ_m._1i65u canvas,
+._2EZ_m._1i65u ._1jjYO {
+  opacity: .04; }
+  
+  
+  
+  
+  ._2EZ_m {
+  -webkit-align-items: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: none;
+          flex: none;
+  height: 264px;
+  -webkit-justify-content: center;
+          justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 264px; }
+
+html[dir] ._2EZ_m {
+  border-radius: 2px; }
+  ._2EZ_m canvas,
+  ._2EZ_m img {
+    max-width: 264px; }
+  ._2EZ_m ._1jjYO {
+    position: absolute;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    z-index: 2; }
+  html[dir] ._2EZ_m ._1jjYO {
+    margin-top: -32px; }
+  html[dir=ltr] ._2EZ_m ._1jjYO {
+  left: 50%;
+  margin-left: -32px; }
+  html[dir=rtl] ._2EZ_m ._1jjYO {
+  right: 50%;
+  margin-right: -32px; }
+  ._2EZ_m img,
+  ._2EZ_m canvas,
+  ._2EZ_m ._1jjYO {
+    transition: opacity 0.5s cubic-bezier(0.1, 0.82, 0.25, 1);
+    opacity: 1; }
+
+._2EZ_m._1i65u img,
+._2EZ_m._1i65u canvas,
+._2EZ_m._1i65u ._1jjYO {
+  opacity: .04; }
+
+
+.row{
+  height: 100%;
+}
+
+.progress{
+  width: 280px;
+  right: 135px;
+  position: absolute;
+}
+
+
+.nav-link i{
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.nav-link{
+  color : black;
+}
+
+.nav-link.active{
+  color: #007bff;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, .1) !important;
+    border-color: rgba(255, 255, 255, .1) !important;
+}
+
+.wtsapLoader {
+  border: 16px solid #ded7d7;
+  border-radius: 50%;
+  border-top: 16px solid #00e676;
+  z-index: 1;
+  border-left: 1px solid #00e676;
+  border-right: 1px solid #00e676;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#qrcodeImage{
+  /*opacity: 0.1;*/
+  display : none;
+}
+
+._1jjYO{
+  display: none;
+  /*opacity: 0.1 !important;*/
+}
+
+.notifyjs-corner{
+  top: 50px !important;
+}
+
+.clickConnect{
+  z-index: 1; 
+}
+
+.btn-primary{
+  margin : 1%;
+}
+
+.isActive{
+  color: #fff !important;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.qrCodeBox ol, .qrCodeBox ol:after, .qrCodeBox ol:before{
+    color: rgb(75, 75, 75);
+    cursor: default;
+    height: 120px;
+    text-decoration: none solid rgb(75, 75, 75);
+    text-rendering: optimizelegibility;
+    width: 447.641px;
+    column-rule-color: rgb(75, 75, 75);
+    perspective-origin: 235.813px 60px;
+    transform-origin: 235.813px 60px;
+    user-select: none;
+    caret-color: rgb(75, 75, 75);
+    border: 0px none rgb(75, 75, 75);
+    
+    margin: 0px;
+    outline: rgb(75, 75, 75) none 0px;
+    padding: 0px 0px 0px 24px;
+}
+.qrCodeBox li, .qrCodeBox li:after, .qrCodeBox li:before{
+    color: rgb(75, 75, 75);
+    cursor: default;
+    height: 40px;
+    text-decoration: none solid rgb(75, 75, 75);
+    text-rendering: optimizelegibility;
+    width: 447.641px;
+    column-rule-color: rgb(75, 75, 75);
+    perspective-origin: 223.813px 14px;
+    transform-origin: 223.813px 14px;
+    user-select: none;
+    caret-color: rgb(75, 75, 75);
+    border: 0px none rgb(75, 75, 75);
+    font: normal normal 400 normal 18px / 28px "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    list-style: decimal outside none;
+    outline: rgb(75, 75, 75) none 0px;
+}
+.qrCodeBox li span{
+    color: rgb(75, 75, 75);
+    cursor: default;
+    text-align: left;
+    text-decoration: none solid rgb(75, 75, 75);
+    text-rendering: optimizelegibility;
+    unicode-bidi: isolate;
+    column-rule-color: rgb(75, 75, 75);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    user-select: text;
+    caret-color: rgb(75, 75, 75);
+    border: 0px none rgb(75, 75, 75);
+    font: normal normal 400 normal 18px / 28px "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    list-style: decimal outside none;
+    outline: rgb(75, 75, 75) none 0px;
+}
+
+.qrCodeBox li strong, .qrCodeBox li strong:after, .qrCodeBox li strong:before{
+    color: rgb(75, 75, 75);
+    cursor: default;
+    display: inline-block;
+    height: 24px;
+    text-align: left;
+    text-decoration: none solid rgb(75, 75, 75);
+    text-rendering: optimizelegibility;
+    column-rule-color: rgb(75, 75, 75);
+    perspective-origin: 38.0781px 12px;
+    transform-origin: 38.0781px 12px;
+    user-select: text;
+    caret-color: rgb(75, 75, 75);
+    border: 0px none rgb(75, 75, 75);
+    font: normal normal 500 normal 18px / 24px "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    list-style: decimal outside none;
+    outline: rgb(75, 75, 75) none 0px;
+}
+
+
+
+#SPAN_6, #SPAN_12 {
+    color: rgb(75, 75, 75);
+    cursor: default;
+    text-align: left;
+    text-decoration: none solid rgb(75, 75, 75);
+    text-rendering: optimizelegibility;
+    unicode-bidi: isolate;
+    column-rule-color: rgb(75, 75, 75);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    user-select: text;
+    caret-color: rgb(75, 75, 75);
+    border: 0px none rgb(75, 75, 75);
+    font: normal normal 500 normal 18px / 24px "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    list-style: decimal outside none;
+    outline: rgb(75, 75, 75) none 0px;
+}/*#SPAN_6, #SPAN_12*/
+
