@@ -18,7 +18,7 @@
 
     <title>WhatsAppmated</title>
   </head>
-  <body class="" style="height: 100%">
+  <body class="container" style="height: 100%">
   	<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow" style="padding: 4px !important">
 	  	<a class="navbar-brand mr-0" href="#">WhatsAppmated</a>
 		<ul class="navbar-nav px-3">
@@ -90,7 +90,10 @@
       					
 	      				<div class="btnBox">
 	      					<!-- <button class="btn btn-primary btn-sm" id="startWA">Connect Whatsapp</button> -->
-	      					<button class="btn btn-primary btn-sm" id="scanQR" disabled>Refresh QR</button>
+	      					<div class="alert alert-info">
+                    <strong>Connecting...</strong> Please wait.
+                  </div>
+                  <button class="btn btn-primary btn-sm" id="scanQR" disabled>Refresh QR</button>
 	      					
 	      				</div>
       				</div>
@@ -241,7 +244,7 @@
   					}
   				}
         })
-			},2000)
+			},0)
 		})
 
 		$("#scanQR").on('click',getQrCode);
